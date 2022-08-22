@@ -1,7 +1,25 @@
-h1{
-    padding:10;
+
+
+.top {
+    background-color: white;
+    
+    
+} 
+
+.toplinks {
+    float:right;
+    color: black;
+    padding:16px;
+    text-decoration: none;
+    text-align: top;
 }
 
-html{
-    background-color: lightgray;
+.toplinks:hover{
+    color:red;
+}
+
+.logo {
+    font-size: 20px;
+    padding:26px;
+    text-align:center;
 }
