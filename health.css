@@ -21,6 +21,8 @@
     color:black;
     margin-right:25px;
     text-align:center;
+    transition: .3s;
+    font-size:20px;
 }
 
 .red{
@@ -37,8 +39,16 @@
 
 .toplinks a:hover{
     color:red;
+    font-size:30px;
+    transition: .3s;
 }
 
 .logo{
     padding-right:10px;
+}
+
+.middle{
+    background-image: url(../H-HTML/swirl_pattern.webp);
+    width:max-content;
+
 }
