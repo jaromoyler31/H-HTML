@@ -7,12 +7,13 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin:0px;
+    padding:20px;
 } 
 
 .toplinks {
     font-size:20px;
     font-weight: 800;
-    
 }
 
 .toplinks a {
@@ -39,7 +40,6 @@
 
 .toplinks a:hover{
     color:red;
-    font-size:25px;
     transition: .3s;
 }
 
@@ -48,7 +48,30 @@
 }
 
 .middle{
+    width:100%;
+    padding:20px;
+    flex-direction: row;
+}
+body {
     background-image: url(../H-HTML/swirl_pattern.webp);
-    width:max-content;
+    margin:0px;
+}
+
+.title{
+    font-size:100px;
+    font-weight:800;
+    Display:flex;
+    height:500px;
+    flex-direction: column;
+    width:350px;
+    padding:10px;
+
+
+    
+}
+
+.L-text{
+    font-size:x-large;
+    font-weight:normal;
 
 }
