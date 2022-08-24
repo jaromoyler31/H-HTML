@@ -41,6 +41,7 @@
 .toplinks a:hover{
     color:red;
     transition: .3s;
+    
 }
 
 .logo{
@@ -83,6 +84,8 @@ body {
 .Browse:hover{
     color: red;
     transition:.3s;
+    border:1px;
+    border-color:red;
 }
 
 .pics_1{
@@ -90,6 +93,7 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     padding:1px;
+    position: relative;
     
 }
 
@@ -106,8 +110,50 @@ body {
     
 }
 .block{
-    position:fixed;
+    position:absolute;
+    right:50px;
+    bottom:170px;
     padding: 10px;
+    position: sticky;
+}
+
+.block >a:nth-child(1){
+    background-color: white;
+    color: black;
+    font-weight: 800;
+    width:125px;
+    padding-right:0px;
+    padding-bottom: 0px;
+    font-size: 32px;
     
+}
+.block >a:nth-child(1):hover{
+    background-color: gray;
+    color: black;
+    font-weight: 800;
+    transition:1s;
+    
+}
+.block:nth-child(3){
+    background-color:rgb(114, 225, 114);
+    color: black;
+    font-weight: 800;
+    width:150px;
+    padding-right:0px;
+    padding-top: 0px;
+    font-size:32px;
+
+    
+}
+.block>a:nth-child(1)::after{
+    content: "\a";
+    white-space:pre;
+}
+.block:nth-child(3):hover{
+    background-color:rgb(89, 163, 89);
+    color: black;
+    font-weight: 800;
+    transition:1s;
+
     
 }
