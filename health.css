@@ -47,13 +47,7 @@
     padding-right:10px;
 }
 
-.middle{
-    width:100%;
-    padding:20px;
-    flex-direction: row;
-    width:350px;
-    height:500px;
-}
+
 
 body {
     background-image: url(../H-HTML/swirl_pattern.webp);
@@ -63,9 +57,9 @@ body {
 .title{
     font-size:100px;
     font-weight:800;
-    Display:flex;
+    
     height:500px;
-    flex-direction: column;
+    
     width:350px;
     padding:10px;
 
@@ -89,4 +83,25 @@ body {
 .Browse:hover{
     color: red;
     transition:.3s;
+}
+
+.pics_1{
+    Display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding:1px;
+    
+}
+
+.middle{
+    width:100%;
+    padding:20px;
+    display:flex;
+    flex-direction: row;
+    width:350px;
+    height:500px;
+    justify-content: center center;
+    
+    
+    
 }
