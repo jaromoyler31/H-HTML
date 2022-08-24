@@ -85,3 +85,8 @@ body {
     display: flex;
     flex-direction:row;
 }
+
+.Browse:hover{
+    color: red;
+    transition:.3s;
+}
