@@ -90,13 +90,14 @@ body {
 }
 
 .pics_1{
-    Display:flex;
+    display:flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    padding:1px;
-    position: relative;
-    transform: scale(1);
     transition: 1s;
+    gap: 5px;
+    padding-top:20px;
+
+
+    
     
 }
 
@@ -108,32 +109,43 @@ body {
 
 .middle{
     width:100%;
-    padding-right: 10px;
-    padding-left:10px;
+    padding-right: 5px;
+    padding-left:5px;
     padding-top:75px;
     padding-bottom: 75px;
     display:flex;
-    flex-direction: row;
-    width:350px;
-    height:500px;
-    
-    
-    
-    
+    flex-direction: row;    
+    width:400px;
+    height:510px;
+    flex-wrap:wrap;
 }
 
 
 .block{
     font-size:32px;
     font-weight: 800;
-    text-align: end;
+    text-align: start;
     position: absolute;
     
 }
 
 .Cgreen{
     background-color:rgb(114, 225, 114);
-    padding:10px;
+    padding-right:10px;
+    padding-left:10px;
+    padding-top:4.5px;
+    padding-bottom:4.5px;
     position: absolute;
-    bottom: 41px;
+    bottom: 46px;
+}
+
+.Cwhite{
+    background-color:rgb(255, 255, 255);
+    width:175px;
+    padding-left:10px;
+    
+    padding-top:4.5px;
+    padding-bottom:4.5px;
+    position: absolute;
+    bottom: 1px;
 }
