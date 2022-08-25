@@ -95,15 +95,14 @@ body {
     transition: 1s;
     gap: 5px;
     padding-top:20px;
-
-
     
     
 }
 
-.pics_1 img:nth-child(1):hover{
+.pics_1 img:hover{
     transform: scale(1.1);
     transition: .3s;
+
 }
 
 
@@ -148,4 +147,27 @@ body {
     padding-bottom:4.5px;
     position: absolute;
     bottom: 1px;
+}
+
+
+.Cgreen{
+    background-color:rgb(114, 225, 114);
+    padding-right:10px;
+    padding-left:10px;
+    padding-top:4.5px;
+    padding-bottom:4.5px;
+    position: absolute;
+    bottom: 46px;
+} 
+
+.Cgreen:hover{
+    background-color:rgb(110, 187, 110);
+    transition: 1s;
+
+}
+
+.Cwhite:hover{
+    background-color:rgb(183, 183, 183);
+    transition: 1s;
+
 }
