@@ -79,6 +79,7 @@ body {
     font-size:30px;
     display: flex;
     flex-direction:row;
+    transition: 1s;
 }
 
 .Browse:hover{
@@ -94,6 +95,8 @@ body {
     justify-content: space-evenly;
     padding:1px;
     position: relative;
+    transform: scale(1);
+    transition: 1s;
     
 }
 
@@ -136,6 +139,7 @@ body {
     font-weight: 800;
     font-size: 32px;
     width:125px;
+    transition:1s;
     
     
 }
@@ -152,7 +156,8 @@ body {
     color: black;
     font-weight: 800;
     font-size:32px;
-   
+    transition: 1s;
+
     
 }
 .block>a:nth-child(1)::after{
