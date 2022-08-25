@@ -97,59 +97,69 @@ body {
     
 }
 
+.pics_1 img:nth-child(1):hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+
 .middle{
     width:100%;
-    padding:20px;
+    padding-right: 10px;
+    padding-left:10px;
+    padding-top:75px;
+    padding-bottom: 75px;
     display:flex;
     flex-direction: row;
     width:350px;
     height:500px;
-    justify-content: center center;
     
     
     
-}
-.block{
-    position:absolute;
-    right:50px;
-    bottom:170px;
-    padding: 10px;
-    position: sticky;
+    
 }
 
-.block >a:nth-child(1){
+
+.block{
+    position:absolute;  
+    left:204px;
+    bottom:0px;
+    
+    text-align: end;
+
+    
+}
+
+.block>a:nth-child(1){
     background-color: white;
     color: black;
     font-weight: 800;
-    width:125px;
-    padding-right:0px;
-    padding-bottom: 0px;
     font-size: 32px;
+    width:125px;
+    
     
 }
-.block >a:nth-child(1):hover{
+.block>a:nth-child(1):hover{
     background-color: gray;
     color: black;
     font-weight: 800;
     transition:1s;
     
+    
 }
-.block:nth-child(3){
+.block>a:nth-child(2){
     background-color:rgb(114, 225, 114);
     color: black;
     font-weight: 800;
-    width:150px;
-    padding-right:0px;
-    padding-top: 0px;
     font-size:32px;
-
+   
     
 }
 .block>a:nth-child(1)::after{
     content: "\a";
     white-space:pre;
 }
-.block:nth-child(3):hover{
+.block>a:nth-child(2):hover{
     background-color:rgb(89, 163, 89);
     color: black;
     font-weight: 800;
@@ -157,3 +167,4 @@ body {
 
     
 }
+
