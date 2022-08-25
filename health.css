@@ -124,52 +124,16 @@ body {
 
 
 .block{
-    position:absolute;  
-    left:204px;
-    bottom:0px;
-    
-    text-align: end;
-
-    
-}
-
-.block>a:nth-child(1){
-    background-color: white;
-    color: black;
-    font-weight: 800;
-    font-size: 32px;
-    width:125px;
-    transition:1s;
-    
-    
-}
-.block>a:nth-child(1):hover{
-    background-color: gray;
-    color: black;
-    font-weight: 800;
-    transition:1s;
-    
-    
-}
-.block>a:nth-child(2){
-    background-color:rgb(114, 225, 114);
-    color: black;
-    font-weight: 800;
     font-size:32px;
-    transition: 1s;
-
-    
-}
-.block>a:nth-child(1)::after{
-    content: "\a";
-    white-space:pre;
-}
-.block>a:nth-child(2):hover{
-    background-color:rgb(89, 163, 89);
-    color: black;
     font-weight: 800;
-    transition:1s;
-
+    text-align: end;
+    position: absolute;
     
 }
 
+.Cgreen{
+    background-color:rgb(114, 225, 114);
+    padding:10px;
+    position: absolute;
+    bottom: 41px;
+}
