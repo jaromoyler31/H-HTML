@@ -116,7 +116,7 @@ body {
     flex-direction: row;    
     width:400px;
     height:510px;
-    flex-wrap:wrap;
+    
 }
 
 
@@ -161,7 +161,7 @@ body {
 }
 
 .Cwhite:hover{
-    background-color:rgb(183, 183, 183);
+    background-color:red;
     transition: 1s;
 
 }
