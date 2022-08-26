@@ -2,7 +2,6 @@
 
 .top {
     background-color: white;
-    margin: 30px;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -80,6 +79,7 @@ body {
     display: flex;
     flex-direction:row;
     transition: 1s;
+    justify-content: center;
 }
 
 .Browse:hover{
@@ -94,10 +94,12 @@ body {
     flex-direction: row;
     transition: .7s;
     gap: 5px;
-    padding-top:20px;
-    
+    flex-wrap:wrap;
+    justify-content: center;
+
     
 }
+
 
 .pics_1 img:hover{
     transform: scale(1.1);
@@ -114,9 +116,9 @@ body {
     padding-bottom: 75px;
     display:flex;
     flex-direction: row;    
-    width:400px;
-    height:510px;
-    
+    flex-wrap:wrap;
+    justify-content: center;
+    text-align: center;
 }
 
 
