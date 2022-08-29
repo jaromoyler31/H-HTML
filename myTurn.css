@@ -32,8 +32,22 @@ body{
     gap:10px;
 }
 
-th{
-    border:1px dotted red;
-    
+th ,td {
+    border:1px dotted rgb(0, 0, 0);
+    padding:10px;
+    justify-content: center;
 }
 
+table{
+    border-collapse:collapse;
+    padding:30px;
+    justify-content: center;
+
+}
+th{
+    font-weight:800;
+}
+caption{
+    font-size: 40px;
+    font-weight: 800;
+}
