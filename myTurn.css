@@ -32,3 +32,8 @@ body{
     gap:10px;
 }
 
+th{
+    border:1px dotted red;
+    
+}
+
