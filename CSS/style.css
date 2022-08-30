@@ -1,5 +1,5 @@
 .Header{
-    background-color: orange;
+    background-color: plum;
     width:100%;
     margin:0px;
     display:flex;
@@ -51,7 +51,7 @@ body{
 
 
 .box>a:hover{
-    background-color: orange;   
+    background-color: plum;   
     transform: scale(1.1);
     transition: 1s;
 }           
