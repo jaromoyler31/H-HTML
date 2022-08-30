@@ -1,53 +1,55 @@
-.header{
-    
-    
-    background-color: blue;
+.topNav{
+    display:flex;
+    justify-content: flex-end;
     align-items: center;
-    margin:0px;
-    padding:30px;
-    color:whitesmoke;
-    font-weight: 800;
-    font-size: 30px;
-    width:fit-content;
-    transition:1s;
-
 }
-
-.header:hover{
-    color:rgb(0, 0, 0);
-    transition:1s;
-    background-color: rgb(83, 83, 254);
-}
- 
 body{
-    background-color:lightblue;
-    width:100%;
-    height:100%;
     margin:0px;
+}
+a{
+    padding:15px;
+    text-decoration: none;
 
 }
 
-
-.pictures{
-    gap:10px;
-}
-
-th ,td {
-    border:1px dotted rgb(0, 0, 0);
-    padding:10px;
-    justify-content: center;
-}
-
-table{
-    border-collapse:collapse;
-    padding:30px;
-    justify-content: center;
+.openbtn{
+    flex-grow:2;
+    margin-left: 20px;
+    font-size:3em;
 
 }
-th{
-    font-weight:800;
+.openbtn span{
+    cursor: pointer;
+
 }
-caption{
-    font-size: 40px;
-    font-weight: 800;
+
+#sidenav{
+    height:100%;
+    position: fixed;
+    left:0px;
+    display: flex;
+    flex-direction: column;
+    background-color:#dce28d ;
+    padding-top:60px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    color:#9AAD71;
+    transition: all .8s;
+}
+main{
+    position: relative;
+    left: 150px;
+    max-width: calc(100%-150px);
+}
+
+@media screen and (max-width:700px) {
+    .openbtn{
+        visibility:visible;
+
+    }
+    #sidenav{
+        left:-200px;
+    }
+    
 }
