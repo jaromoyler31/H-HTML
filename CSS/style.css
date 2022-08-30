@@ -4,6 +4,7 @@
     margin:0px;
     display:flex;
     align-items: center;
+    justify-content: center;
     justify-content: space-between;
     position: absolute;
     z-index: 2;
@@ -17,10 +18,15 @@
     font-weight: 800;
     transition:1s;
     justify-content: center;
+    text-decoration: underline transparent 1px ; 
 }
 .right>a:hover{
-    color:white;
     transition:1s;    
+    justify-content: center;
+    text-decoration: underline 5px ;
+    
+    
+    
 } 
 
 body{
@@ -33,7 +39,8 @@ body{
 
 .scrollPic{
     display:flex;
-    position: relative;
+    position: sticky;
+    z-index:1;
 }
 .box>a{ 
     background-color: white;    
@@ -55,4 +62,25 @@ body{
     transform: scale(1.1);
     transition: 1s;
 }           
+
+.Catagory1{
+    background-color: white;
+    position: absolute;
+    top:100%;
+    z-index: 4;
+    padding-right:120px;
+    padding-left:120px;
+}
+p{
+    font-size:22px;
+}
+h1{
+    font-weight: 800;
+}
+
+.Avatar{
+    width:300px;
+    height:300px;
+    object-fit: cover;
+}
 
