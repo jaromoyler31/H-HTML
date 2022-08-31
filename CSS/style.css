@@ -38,8 +38,8 @@ body{
 
 
 .scrollPic{
-    display:flex;
-    position: sticky;
+
+    background-attachment: fixed;;
     z-index:1;
 }
 .box>a{ 
@@ -55,7 +55,14 @@ body{
     bottom:30%;
     
 }
-
+.parallax{
+    background-image:url(../IMG/hero-image.jpg);
+    min-height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
 
 
 .box>a:hover{
