@@ -33,7 +33,6 @@ a{
     padding-top:60px;
     padding-right: 10px;
     padding-left: 10px;
-
     color:#9AAD71;
     transition: all .8s;
 }
@@ -53,3 +52,19 @@ main{
     }
     
 }
+
+.cp{
+    padding-top:20px;
+    max-width: calc(100%-150px);
+    transition: all .8s;
+
+    
+}
+#pu{
+    background-color:#9AAD71;
+    transition: all .8s;
+    visibility:hidden;
+
+}
+
+

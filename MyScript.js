@@ -1,6 +1,6 @@
 function openNav()
 
-    document.getElementById("sidenav").style.left =' 0px'
+    document.getElementById("sidenav").style.left ='0px'
     document.getElementById("openbtn").style.visibility ="hidden";
 
 
@@ -16,3 +16,14 @@ window.onresize = ( ) =>{
     else
         closeNav();
 }   
+
+
+
+function openDaddy()
+
+    document.getElementById("pu").style.visibility ="visible";
+
+
+function closeDaddy()
+
+    document.getElementById("pu").style.visibility ="hidden";
