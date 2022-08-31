@@ -1,5 +1,5 @@
 .Header{
-    background-color: plum;
+    background-color: #dda0dd;
     width:100%;
     margin:0px;
     display:flex;
@@ -66,7 +66,7 @@ body{
 
 
 .box>a:hover{
-    background: linear-gradient(132deg, rgba(255,255,255,1) 14%, rgba(229,199,229,1) 78%, rgba(211,160,211,1) 100%);    
+    background: linear-gradient(132deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 7%, rgba(255,255,255,1) 15%, rgba(229,199,229,1) 46%, rgba(211,160,211,1) 62%, rgba(97,63,117,1) 99%);
     transform: scale(1.1);
     transition: 1s;
 }           
@@ -113,7 +113,7 @@ h1{
 }
 
 .Catagory2{
-    background-color: gray;    
+    background-color: #613F75;    
     z-index: 5;
     padding-right:120px;
     padding-left:120px;
