@@ -79,8 +79,8 @@ body{
     position: relative;
     top:100%;
     z-index: 4;
-    padding-right:120px;
-    padding-left:120px;
+    padding-right:10%;
+    padding-left:10%;
     padding-bottom: 40px;
 }
 
@@ -90,10 +90,10 @@ body{
     padding-top:20px; 
     z-index: 1;
     position: relative;
-    padding-right:120px;
-    padding-left:120px;
-    gap:10px;
+    padding-right:10%;
+    padding-left:10%;
     padding-bottom: 60px;
+    
 
 }
 
@@ -116,8 +116,16 @@ body{
     
 } 
 
+.scrollPic{
+
+    background-attachment: fixed;;
+    z-index:1;
+}
+
+
 /* Only Index*/
 /* Only Index*/
+
 
 .parallax{
     background-image:url(../IMG/hero-image.jpg);
@@ -128,6 +136,30 @@ body{
     background-size:cover;
 }
 
+h1{
+    font-weight: 800;
+    padding: 10px;
+}
+
+.Bottom_text{
+    display: flex;
+    flex-direction: column;
+    font-size:21px; 
+    justify-content: center;
+    align-items: center;
+    padding-bottom:40px;
+}
+
+.Bottom_text2{
+    display: flex;
+    flex-direction: column;
+    font-size:21px; 
+    justify-content: center;
+    align-items: center;
+    padding-bottom:5px;
+    background-color: white;
+    color:black;
+}
 
 /* Only Recipe */
 /* Only Recipe */
@@ -144,7 +176,7 @@ body{
 .prep-time{
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
+    justify-content: space-between;
 }
 
 .S1{
@@ -159,7 +191,7 @@ body{
     display: flex;
     flex-direction: row;
     font-size: 30px;
-    justify-content: space-evenly;
+    
 }
 
 .tittle{
@@ -171,51 +203,78 @@ body{
     
 }
 
+.Review{
+    display: flex;
+    justify-content: center;
+    gap:12px;    
+    padding-top:15px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.scrollPic{
-
-    background-attachment: fixed;;
-    z-index:1;
 }
+
+.fa-star{
+    color:#613F75;
+}
+
+.SAPR{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    padding-top:15px;
+    padding-bottom:20px;
+}
+button{
+    background-color: #613F75;
+    border: none;
+    color:white;
+    padding:8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 1s;
+
+}
+
+button:hover{
+    background-color: #8658a1;
+    transition: 1s;
+}
+
+.Box_text{
+    background-color:#613F75;
+    color:#dda0dd;
+    text-align: center;
+    padding:10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 30px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
        
 
-.Catagory1{
-    background-color: white;    
-    position: relative;
-    top:100%;
-    z-index: 4;
-    padding-right:120px;
-    padding-left:120px;
-    padding-bottom: 40px;
-}
+
 p{
     font-size:22px;
     padding:10px;
 }
-h1{
-    font-weight: 800;
-    padding: 10px;
-}
+
 
 .Avatar{
     width:300px;
@@ -251,25 +310,6 @@ h1{
     transition: 1s;
 }
 
-.Bottom_text{
-    display: flex;
-    flex-direction: column;
-    font-size:21px; 
-    justify-content: center;
-    align-items: center;
-    padding-bottom:40px;
-}
-
-.Bottom_text2{
-    display: flex;
-    flex-direction: column;
-    font-size:21px; 
-    justify-content: center;
-    align-items: center;
-    padding-bottom:5px;
-    background-color: white;
-    color:black;
-}
 
 .Avatar1{
     width:250px;
