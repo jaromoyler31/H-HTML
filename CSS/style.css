@@ -92,6 +92,8 @@ h1{
     width:300px;
     height:300px;
     object-fit: cover;
+    opacity:.6;
+    transition:1s;
 
 }
 
@@ -102,6 +104,22 @@ h1{
     transition:1s;
     padding:5px;
     flex-wrap: wrap;
+    
+}
+
+.Avatar1:hover{
+    opacity:1;
+    transition: 1s;
+}
+
+.Avatar:hover{
+    opacity:1;
+    transition: 1s;
+}
+
+.Avatar2:hover{
+    opacity:1;
+    transition: 1s;
 }
 
 .Bottom_text{
@@ -140,6 +158,8 @@ h1{
     width:250px;
     height:300px;
     object-fit: cover;
+    opacity:.6;
+    transition:1s;
 }
 
 .Avatar2{
@@ -147,6 +167,8 @@ h1{
     height:300px;
     object-fit: cover;
     border: 5px solid #f3cbf3;
+    opacity:.6;
+    transition:1s;
 
 }
 
