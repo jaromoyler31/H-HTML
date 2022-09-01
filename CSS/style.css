@@ -131,16 +131,20 @@ h1{
     font-size:21px; 
     justify-content: center;
     align-items: center;
-    padding-bottom:10px;
+    padding-bottom:5px;
     background-color: white;
     color:black;
 }
 
 .Avatar1{
+    width:250px;
+    height:300px;
+    object-fit: cover;
+}
+
+.Avatar2{
     width:300px;
     height:300px;
     object-fit: cover;
-    border-color: gray;
-    border:10px;
-
+    border: 5px solid #f3cbf3;
 }
