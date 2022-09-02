@@ -17,7 +17,9 @@
     background-color: #dda0dd;
     width:100%;
     margin:0px;
-        display:flex;
+    padding-top:20px;
+    padding-bottom:20px;
+    display:flex;
     align-items: center;
     justify-content: center;
     justify-content: space-between;
@@ -81,7 +83,7 @@ body{
     z-index: 4;
     padding-right:10%;
     padding-left:10%;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 .Catagory2{
@@ -203,6 +205,7 @@ p{
     display: flex;
     justify-content: center;
     padding-top:100px;
+    padding-bottom:20px;
     font-size:40px;
     font-weight: 900;
     
@@ -259,14 +262,43 @@ button:hover{
 }
 
 .recipe{
+    display:flex;
+    gap:10%;
+    justify-content: space-around;
+    
+}
+
+.L_Ingredients{
+    width:50%;
+    font-size:18px;
+}
+
+.R_Directions{
+    width:80%;
+    font-size:18px;
     display: flex;
-    
-}
-.R_Direction{
-    
+    padding-bottom:4px;
 }
 
+.tittle1{
+    display:flex;
+    padding-top:40px;
+    padding-bottom:20px;
+    font-size:30px;
+    font-weight: 900;
+    
+}
+.small_tittle{
+    display:flex;
+    padding-top:20px;
+    padding-bottom:5px;
+    font-size:20px;
+    font-weight: 900;
+}
 
+.R_Directions li{
+    padding-bottom:10px;
+}
 
 
 
