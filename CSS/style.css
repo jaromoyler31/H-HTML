@@ -161,6 +161,11 @@ h1{
     color:black;
 }
 
+p{
+    font-size:22px;
+    padding:10px;
+}
+
 /* Only Recipe */
 /* Only Recipe */
 
@@ -250,17 +255,16 @@ button:hover{
     padding:10px;
     padding-right: 50px;
     padding-left: 50px;
-    font-size: 30px;
-   
+    font-size: 30px;   
 }
 
 .recipe{
     display: flex;
-    justify-content: space-between;
+    
 }
-
-
-
+.R_Direction{
+    
+}
 
 
 
@@ -272,10 +276,7 @@ button:hover{
        
 
 
-p{
-    font-size:22px;
-    padding:10px;
-}
+
 
 
 .Avatar{
