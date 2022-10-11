@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dad</title>
+</head>
+<body>
+    <script>
+        //node
+            //value
+            //right
+            //left
+
+        //tree
+            //root
+            //node
+            //count
+            //print
+
+        function getNode(number){
+            return{
+                value:number,
+                right:null,
+                left:null
+            }
+        }
+        function getBinarySeachTree(){
+            return{
+                root:null,
+                count:0, 
+                insert: function (number){
+                    this.count++;
+                    let newNode = getNode(number)
+                    if (root === null){
+                        root = newNode
+                    } else{
+                        let nodeToCheck = root
+                        while(nodeToCheck !== null){
+                            let isGotoLeft = number <= nodeToCheck.number
+                            let isGotoRight = number > nodeToCheck.number
+                            
+                            nodeToCheck = isGotoLeft ? nodeToCheck.left : nodeToCheck.right
+                        }
+                        return 
+                    }
+                },
+                find: function(number){},
+                size: function(){},
+                print: function(){},
+                //we wont do remove for now
+            }
+        }
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    align-items:center;
+    margin:5px;
+    padding:10px;
+}
+.left_arrow{
+    font-size:40px;
+    cursor: pointer;
+    margin:10px;
+}
+.right_arrow{
+    font-size:40px;
+    cursor: pointer;
+    margin:10px;
+}
+
+
+.bob{
+    
+    height:60px;
+    width:60px;
+    background-color:blueviolet;
+    color:white;
+    text-align: center;
+    font-size:30px;
+    
+}
+.row{
+    padding:5px;
+    display: flex;
+    flex-direction: row;
+    gap:10px
+}
+.entire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
